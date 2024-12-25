@@ -56,7 +56,7 @@ function runGame(){
 
 function win(){
     if (count===6) {
-      Swal.fire("You are win buddy! Your dice number is six");
+      Swal.fire("You win, buddy! Your dice number is six.");
       dice_container.innerHTML = `<div class="dice dice-1 animate__animated animate__flip">
         <span class="dot center "></span>
       </div>`
